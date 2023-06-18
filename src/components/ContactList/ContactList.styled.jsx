@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Wrapper = styled.ul`
-  max-width: 300px;
+  max-width: 280px;
   font-size: 14px;
   line-height: 1.5;
   gap: 10px;

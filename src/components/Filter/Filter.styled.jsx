@@ -10,7 +10,7 @@ export const Label = styled.label`
 export const Input = styled.input`
   display: flex;
   flex-direction: column;
-  width: 225px;
+  width: 250px;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 2px;

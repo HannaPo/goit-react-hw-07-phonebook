@@ -16,9 +16,9 @@ const ContactList = () => {
 
   return (
     <Wrapper>
-      {filteredContacts.map(({ id, name, number }) => (
+      {filteredContacts.map(({ id, name, phone }) => (
         <Item key={id}>
-          {name}: {number}
+          {name}: {phone}
           <Button
             type="button"
             aria-label="Delete contact"
